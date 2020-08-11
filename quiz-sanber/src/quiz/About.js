@@ -22,11 +22,11 @@ function About(){
             <div style={{border:'1px solid black',backgroundColor:'white'}}>
                 <h1 style={{textAlign: 'center'}}>Data Peserta Sanbercode Bootcamp Reactjs</h1>
                 <ol>
-                    <li><strong style={{width: '100px'}}>Nama:</strong> Evelyn Tjitrodjojo</li> 
-                    <li><strong style={{width: '100px'}}>Email:</strong> Marsella.eve@gmail.com</li> 
-                    <li><strong style={{width: '100px'}}>Sistem Operasi yang digunakan:</strong> Windows</li>
-                    <li><strong style={{width: '100px'}}>Akun Gitlab:</strong> github.com/Marsellaeve</li> 
-                    <li><strong style={{width: '100px'}}>Akun Telegram:</strong> Marsellaeve</li> 
+                    <li><strong style={{width: '100px'}}>Nama:</strong> Gamalliel Sharon</li> 
+                    <li><strong style={{width: '100px'}}>Email:</strong> sharongamalliel@gmail.com</li> 
+                    <li><strong style={{width: '100px'}}>Sistem Operasi yang digunakan:</strong> MacOS</li>
+                    <li><strong style={{width: '100px'}}>Akun Gitlab:</strong> github.com/Gamalliel19</li> 
+                    <li><strong style={{width: '100px'}}>Akun Telegram:</strong> @gmllshrn</li> 
                 </ol>
             </div>
         </div>
