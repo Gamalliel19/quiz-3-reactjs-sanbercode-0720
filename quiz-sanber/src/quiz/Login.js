@@ -14,9 +14,15 @@ const Login=()=>{
     return (
         <div>
             <style>
-                {`input{
+                {`
+                form{
+                    text-align: center;
+                    padding: 20px;
+                }
+                input{
                     font-family: serif;
-                    width: 80%;
+                    width: 50%;
+                    margin: 0 auto;
                     height: 20px;
                     padding: 12px 20px;
                     box-sizing: border-box;
@@ -42,14 +48,12 @@ const Login=()=>{
             <div style={{border:'1px solid black',backgroundColor:'white'}}>
                 <h1 style={{textAlign: 'center'}}>Login</h1>
                 <form>
-                <ol>
-                    <li><strong style={{width: '100px'}}>Username: </strong></li> 
+                    <label><strong style={{width: '100px'}}>Username: </strong> </label>
                     <input type="text"/><br/><br/>
-                    <li><strong style={{width: '100px'}}>Email: </strong></li> 
-                    <input type="text"/><br/><br/>
+                    <label> <strong style={{width: '100px'}}>Password: </strong> </label>
+                    <input type="password"/><br/><br/>
                     <button  onClick={handleSubmit}>Submit</button>
                     
-                </ol>
                 </form>
             </div>
         </div>
